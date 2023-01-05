@@ -1,3 +1,214 @@
+.container {
+    width: 1400px;
+}
+
+img {
+    display: block;
+    width: 92%;
+    margin-right: auto;
+    margin-left: auto;
+    border-top: 5px solid black;
+    margin-bottom: 53px;
+}
+
+.FirstHeader {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 35px;
+    position:absolute;
+    top: 220px;
+    left: 360px;
+    color: #222
+}
+
+.SecondHeader {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 70px;
+    position:absolute;
+    top: 220px;
+    left: 360px;
+    color: #222
+}
+
+.BiggerText {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+    font-size: 19px;
+}
+
+.Box1, .Box2, .Box3, .Box4, .Box5 {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.5;
+}
+
+.quotation {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    background: #222;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 45px;
+    padding-bottom: 45px;
+    width: 57%;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+}
+  
+}
+
 h1 {
-    color:aqua;
+    font-family: 'Josefin Sans', sans-serif;;
+    color: #222;
+    font-size: 20px;
+    margin-bottom:40px;
+}
+
+h3 {
+    font-family: 'Josefin Sans', sans-serif;;
+    color: #222;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+h5 {
+    color: #222;
+    font-family: 'Merriweather', serif;
+    font-size: 15px;
+    font-style: italic;
+    margin-top: 0px;
+}
+
+p {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+    font-size: 16px;
+}
+
+ul {
+    font-family: 'Josefin Sans', sans-serif;
+    color: #222;
+    font-size: 16px;
+    list-style-type: square;
+}
+
+.line {
+    width: 55%;
+    height: 4px;
+    background: #222;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+form {
+    color: white;
+    background: #222;
+    width: 55%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 350px;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+
+#question {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    display: block;
+    padding-left: 33px;
+    padding-top: 33px;
+    padding-bottom: 20px;
+}
+
+.label1 {
+    padding-left: 33px; 
+    padding-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+.label11 {
+    margin-bottom: 10px;
+    margin-left: 3px;
+    background: white;
+    border: solid white 2px;
+    border-radius: 4px;
+}
+
+.label2 {
+    padding-left: 33px; 
+    padding-bottom: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+
+.label22 {
+    margin-bottom: 10px;
+    background: white;
+    border: solid white 2px;
+    border-radius: 4px;
+}
+
+.label3 {
+    padding-left: 33px; 
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+}
+
+.label33 {
+    margin-left: 33px;  
+    margin-top: 10px;
+    width: 80%;
+    height: 100px;
+    background: white;
+    border: solid white 2px;
+    border-radius: 4px;
+    padding-left: 4px;
+}
+
+button {
+    margin-left: 33px;  
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    width: 100px;
+    height: 30px;
+    background: white;
+    border: solid white 2px;
+    border-radius: 4px;
+    cursor:pointer
+}
+
+button:hover {
+    font-weight: bold;
+    background-color: rgb(235, 233, 233);
+}
+
+.first {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 160px;
+    position: absolute;
+    top: 695px;
+    left: 320px;
+}
+
+.second {
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+    font-size: 160px;
+    position: absolute;
+    top: 1390px;
+    left: 400px;
+}
+
+.third {
+     font-family: 'Abril Fatface', cursive;
+     color: white;
+     font-size: 160px;
+     position: absolute;
+     top: 2140px;
+     left: 340px;
 }
